@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'manrope': ['Manrope', 'sans-serif']
+        'custom': ['Lexend Deca', 'sans-serif']
       },
     },
   },
