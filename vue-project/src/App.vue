@@ -1,16 +1,19 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
+import Contact from "./components/Contact.vue";
 </script>
 
 <template>
-  <div class="min-h-screen bg-zinc-950 text-neutral-50 font-custom">
-    <Navbar />
-
-    <header>
-      <Hero />
-    </header>
-
-    <main></main>
+  <div class="text-neutral-50 font-custom">
+    <div class="bg-stone-950 px-16">
+      <Navbar />
+      <main>
+        <header>
+          <Hero />
+        </header>
+      </main>
+    </div>
+    <Contact />
   </div>
 </template>
