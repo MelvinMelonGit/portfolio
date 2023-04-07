@@ -3,8 +3,10 @@ import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <Navbar />
-  <header></header>
+  <div class="min-h-screen bg-zinc-950 text-neutral-50 font-manrope">
+    <Navbar />
+    <header></header>
 
-  <main></main>
+    <main></main>
+  </div>
 </template>

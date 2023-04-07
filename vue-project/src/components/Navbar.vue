@@ -3,9 +3,9 @@ import NavbarLi from "./NavbarLi.vue";
 </script>
 
 <template>
-  <nav>
-    <div class="text-3xl font-bold underline">My Logo</div>
-    <ul>
+  <nav class="flex justify-around">
+    <div class="text-xl font-normal underline">My Logo</div>
+    <ul class="flex">
       <NavbarLi />
     </ul>
   </nav>
